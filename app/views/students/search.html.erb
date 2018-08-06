@@ -4,6 +4,4 @@
  <%= text_field_tag :student_name %>
  <%= submit_tag :Search %>
  <% end %>
- <%= @students.search.map do |student| %>
-<%= render partial: 'student', locals: {student: @student} %>
-<% end %>
+
