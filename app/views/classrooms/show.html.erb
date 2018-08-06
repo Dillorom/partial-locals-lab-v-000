@@ -6,5 +6,5 @@ Classroom Info
 
 Students:
 <%= @students.each do  %>
-<%= render 'students/student' %>
+<%= render partial: 'students/student', locals: {student: @classroom.student} %>
 <% end %>
