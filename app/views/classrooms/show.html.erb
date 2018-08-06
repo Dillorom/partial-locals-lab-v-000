@@ -2,6 +2,5 @@ Classroom Info
 
 <%= render partial: 'classroom', locals: {classroom: @classroom} %>
 Students:
-<%= @student.all.each do  %>
+
 <%= render partial: 'students/student', locals: {student: @classroom.student} %>
-<% end %>
