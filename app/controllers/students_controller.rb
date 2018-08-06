@@ -24,7 +24,7 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
   def search
-    
+
   end
 
   def do_search
